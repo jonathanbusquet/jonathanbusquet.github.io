@@ -37,6 +37,12 @@ ol, ul {
 	list-style: none;
 }
 
+.section-style {
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2774,7 +2780,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 100%;
+			width: 200%;
 			margin-left: 0;
 		}
 
@@ -2799,7 +2805,7 @@ input, select, textarea {
 				}
 
 		ul.actions.fit {
-			width: calc(100% + 1rem);
+			width: calc(200% + 5rem);
 		}
 
 			ul.actions.fit li {
@@ -2815,11 +2821,11 @@ input, select, textarea {
 			}
 
 				ul.actions.fit li > * {
-					width: 100%;
+					width: 200%;
 				}
 
 			ul.actions.fit.stacked {
-				width: 100%;
+				width: 200%;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2830,7 +2836,7 @@ input, select, textarea {
 				-ms-flex-direction: column;
 				flex-direction: column;
 				margin-left: 0;
-				width: 100% !important;
+				width: 200% !important;
 			}
 
 				ul.actions:not(.fixed) li {
@@ -2844,11 +2850,11 @@ input, select, textarea {
 					flex-shrink: 1;
 					padding: 1rem 0 0 0;
 					text-align: center;
-					width: 100%;
+					width: 200%;
 				}
 
 					ul.actions:not(.fixed) li > * {
-						width: 100%;
+						width: 200%;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2860,7 +2866,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 200%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3633,10 +3639,10 @@ input, select, textarea {
 		}
 
 		.banner.style1.image-position-right .image img {
-			-moz-object-position: right;
-			-webkit-object-position: right;
-			-ms-object-position: right;
-			object-position: right;
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
 		}
 
 /* Banner (style2) */
@@ -6102,10 +6108,10 @@ input, select, textarea {
 	}
 
 	.gallery.onscroll-fade-in article .image img {
-		-moz-transition: opacity 0.75s ease-in-out;
-		-webkit-transition: opacity 0.75s ease-in-out;
-		-ms-transition: opacity 0.75s ease-in-out;
-		transition: opacity 0.75s ease-in-out;
+		-moz-transition: opacity 0.50s ease-in-out;
+		-webkit-transition: opacity 0.50s ease-in-out;
+		-ms-transition: opacity 0.50s ease-in-out;
+		transition: opacity 0.50s ease-in-out;
 		-moz-transition-delay: 4.8s;
 		-webkit-transition-delay: 4.8s;
 		-ms-transition-delay: 4.8s;
@@ -8601,3 +8607,6 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+.section-style {
+	margin-top: 10px;
+}
